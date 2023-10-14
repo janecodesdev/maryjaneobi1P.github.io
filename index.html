@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form To Email Using JavaScript</title>
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <form action="https://formsubmit.co/obimary938@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Email!">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="hidden" name="_next" value="https://maryjaneobi.github/thanks.html">
+            <input type="text" name="name" placeholder="Your name" required>
+            <textarea name="message" id="textarea"  placeholder="Your Message" rows="10" cols="50" required=""></textarea>
+
+            <button type="submit">Send</button>
+       </form>
+
+
+
+
+
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!!</span></h2>
+            <h2 class="heading">You can reach me at: <span>Obimary938@gmail.com</span></h2>
+            <br>
+            <h4 class="heading">OR</h4>
+    
+            <div class="contact-box">
+     
+                <form>
+                  <div class="user-box">
+                    <label>Your Email</label>
+                    <input type="email" id="email" name="email" placeholder= "Enter your email" required="">
+                  </div>
+                  <br>
+                  <div class="user-box">
+                        <label for="textarea">Your Message</label>
+                        <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+                  </div>
+                  <center>
+                  <a href="#">
+                         SEND
+                     <span></span>
+                  </a>
+                </center>
+                </form>
+              </div>
+            </section>
+
+
+</body>
+</html>
